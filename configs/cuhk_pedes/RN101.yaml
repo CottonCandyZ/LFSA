@@ -25,7 +25,7 @@ DATALOADER:
   DROP_PROB_PER_SEN: 0.4
   TEXT_ENCODE_TYPE: 'mask_drop_nouns_adjs_verb_replace_v5'
 PATH:
-  DATASETS: /home/gml/datasets
+  DATASETS: ./datasets
   OUTPUTS: ./output
   PRE_TRAINED: ./pretrained/clip
 DATASETS:

@@ -1,0 +1,78 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Nouns",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/cal_nouns.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Colors",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/colors/cal_colors.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Train",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/train.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--config-file",
+        "configs/cuhk_pedes/two_stream.yaml",
+        "--device-num",
+        "1",
+        "--resume-from",
+        "V5_644_20231105_141338/best.pth"
+      ]
+    },
+    {
+      "name": "Python: Test",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/test.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--config-file",
+        "V5_644_20231105_141338/config.yaml",
+        "--checkpoint-file",
+        "V5_644_20231105_141338/best.pth",
+        "--device-num",
+        "1",
+        "--save"
+      ]
+    },
+    {
+      "name": "Python: Visualization",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/visualization.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--logdir",
+        // "output/cuhk_pedes/CHECKPOINT/Sampler Loss/one_stream_gal_ori_loss_only_One_sampler_20231003_225004",
+        "output/cuhk_pedes/CHECKPOINT/V5_ON_TEST_20231003_013724"
+      ]
+    }
+  ]
+}

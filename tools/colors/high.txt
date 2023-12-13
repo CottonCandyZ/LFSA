@@ -1,0 +1,6 @@
+gray
+blue
+dark
+brown
+white
+black

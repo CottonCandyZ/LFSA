@@ -13,22 +13,6 @@
       "justMyCode": true
     },
     {
-      "name": "Python: Nouns",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/cal_nouns.py",
-      "console": "integratedTerminal",
-      "justMyCode": true
-    },
-    {
-      "name": "Python: Colors",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/colors/cal_colors.py",
-      "console": "integratedTerminal",
-      "justMyCode": true
-    },
-    {
       "name": "Python: Train",
       "type": "python",
       "request": "launch",
@@ -39,9 +23,9 @@
         "--config-file",
         "configs/cuhk_pedes/two_stream.yaml",
         "--device-num",
-        "1",
-        "--resume-from",
-        "V5_644_20231105_141338/best.pth"
+        "0",
+        // "--resume-from",
+        // "V5_644_20231105_141338/best.pth"
       ]
     },
     {
@@ -61,18 +45,5 @@
         "--save"
       ]
     },
-    {
-      "name": "Python: Visualization",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/visualization.py",
-      "console": "integratedTerminal",
-      "justMyCode": true,
-      "args": [
-        "--logdir",
-        // "output/cuhk_pedes/CHECKPOINT/Sampler Loss/one_stream_gal_ori_loss_only_One_sampler_20231003_225004",
-        "output/cuhk_pedes/CHECKPOINT/V5_ON_TEST_20231003_013724"
-      ]
-    }
   ]
 }

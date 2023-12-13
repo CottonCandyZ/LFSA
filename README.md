@@ -6,7 +6,7 @@ We follow the [IRRA](https://github.com/anosorae/IRRA?tab=readme-ov-file#prepare
 
 ## Training
 
-Use the vscode launch file or use the following bash command line:
+Use the vscode [launch](https://code.visualstudio.com/docs/python/debugging) file or use the following bash command line:
 
 ```bash
 python train.py --config-file configs/cuhk_pedes/two_stream.yaml --device-num 0

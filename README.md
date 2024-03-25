@@ -1,5 +1,7 @@
 # Learning Shared Features from Specific and Ambiguous Descriptions for Text-Based Person Search
 
+<img src="LFSA.webp" width="500">
+
 ## Prepare Datasets
 
 We follow the [IRRA](https://github.com/anosorae/IRRA?tab=readme-ov-file#prepare-datasets) dataloader code. Just set the dataset path in `configs` `PATH.DATASETS` option.

@@ -1,5 +1,7 @@
 # Learning Shared Features from Specific and Ambiguous Descriptions for Text-Based Person Search
 
+[Paper](https://link.springer.com/article/10.1007/s00530-024-01286-z)
+
 <img src="LFSA.webp" width="500">
 
 ## Prepare Datasets
